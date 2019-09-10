@@ -4,6 +4,7 @@ import React from "react";
 import { data } from '../../../data'
 
 //Import your array data to from the provided data file
+const [operators, setOperators] = useState(operators);
 
 const Operators = () => {
   // STEP 2 - add the imported data to state
