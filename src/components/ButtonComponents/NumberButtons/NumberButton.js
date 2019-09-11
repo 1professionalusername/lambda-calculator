@@ -1,10 +1,10 @@
 import React from "react";
 
-const NumberButton = (numbers) => {
+const NumberButton = (props) => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <button>{numbers}</button>
+      <button>{props.numbers}</button>
     </>
   );
 };
